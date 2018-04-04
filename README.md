@@ -50,3 +50,9 @@ Martin, Robert, Clean Code, 2008
 McConnell, Steve, Code Complete, 1993  
 Shore, James, The Art of Agile Development, 2008
 ```
+
+```
+$ python3 books.py --filter Fo --year --reverse
+Fowler, Martin, Patterns of Enterprise Application Architecture, 2002
+Fowler, Martin, Refactoring, 1999
+```

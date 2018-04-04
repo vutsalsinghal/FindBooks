@@ -54,9 +54,9 @@ for fName in [x for x in os.listdir(os.getcwd()) if x in valid_fileTypes]:
 
 if args['filter'] != None:
     filterElement = args['filter']
-    for i in sorted(output, key=lambda x: x[0] if not args['year'] else x[3], reverse=args['reverse']):
-        if any([True for x in i if filterElement in x]):
-            print(', '.join(i))
+    for line in sorted(output, key=lambda x: x[0] if not args['year'] else x[3], reverse=args['reverse']):
+        if any([True for x in line if filterElement in x]):
+            print(', '.join(line))
 else:
-    for i in sorted(output, key=lambda x: x[0] if not args['year'] else x[3], reverse=args['reverse']):
-        print(', '.join(i))
+    for line in sorted(output, key=lambda x: x[0] if not args['year'] else x[3], reverse=args['reverse']):
+        print(', '.join(line))
