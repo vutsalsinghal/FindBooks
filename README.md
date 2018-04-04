@@ -6,7 +6,8 @@ The format of the input files are:
 - csv: Book Title, Last Name, First name, Book Publication Date
 
 
-```$ python3 books.py --help```
+```
+$ python3 books.py --help
 usage: books.py [-h] [--filter FILTER] [--year] [--reverse] [--version]
 
 Tool which shows a list of books in alphabetical ascending by author's last
@@ -19,21 +20,26 @@ optional arguments:
   --year           sort the books by year, ascending instead of default sort  
   --reverse        reverse sort  
   --version        show program's version number and exit  
-
+```
 
 Some sample outputs of the program:  
 
-```$ python books.py --filter 199 --reverse```  
+```
+$ python books.py --filter 199 --reverse
 McConnell, Steve, Code Complete, 1993  
 Fowler, Martin, Refactoring, 1999  
+```
 
-```$ python books.py --filter er --year```  
+```
+$ python books.py --filter er --year
 Fowler, Martin, Refactoring, 1999  
 Fowler, Martin, Patterns of Enterprise Application Architecture, 2002  
 Beck, Kent, Implementation Patterns, 2007  
 Martin, Robert, Clean Code, 2008  
+```
 
-```$ python books.py```  
+```
+$ python books.py
 Beck, Kent, Test-Driven Development, 2002  
 Beck, Kent, Implementation Patterns, 2007  
 Brooks, Fred, The Mythical Man-Month, 1975  
@@ -42,4 +48,5 @@ Fowler, Martin, Refactoring, 1999
 Fowler, Martin, Patterns of Enterprise Application Architecture, 2002  
 Martin, Robert, Clean Code, 2008  
 McConnell, Steve, Code Complete, 1993  
-Shore, James, The Art of Agile Development, 2008  
+Shore, James, The Art of Agile Development, 2008
+```
