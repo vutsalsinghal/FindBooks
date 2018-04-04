@@ -12,16 +12,16 @@ usage: books.py [-h] [--filter FILTER] [--year] [--reverse] [--version]
 Tool which shows a list of books in alphabetical ascending by author's last
 name
 
-optional arguments:
-  -h, --help       show this help message and exit
+optional arguments:  
+  -h, --help       show this help message and exit  
   --filter FILTER  Show a subset of books, looks for the argument as a
-                   substring of any of the fields
-  --year           sort the books by year, ascending instead of default sort
-  --reverse        reverse sort
-  --version        show program's version number and exit
+                   substring of any of the fields  
+  --year           sort the books by year, ascending instead of default sort  
+  --reverse        reverse sort  
+  --version        show program's version number and exit  
 
 
-Some sample outputs of the program:
+Some sample outputs of the program:  
 
 ```$ python books.py --filter 199 --reverse```  
 McConnell, Steve, Code Complete, 1993  
